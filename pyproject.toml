@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "exercicios-codewars-python"
+version = "0.1.0"
+description = "Exerciocios codewars"
+authors = ["MatheusLPolidoro <mattpolidoro4@gmail.com>"]
+readme = "README.md"
+packages = [{include = "exercicios_codewars_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+isort = "^5.10.1"
+pytest = "^7.1.3"
+mkdocs = "^1.3.1"
+prospector = "^1.7.7"
+pip-audit = "^2.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
